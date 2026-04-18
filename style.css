@@ -32,7 +32,7 @@ h4 {
 
 h3 {
   margin-top: 32px;
-  color: rgb(22, 0, 4);
+  color: var(--accent);
 }
 
 p {
@@ -45,10 +45,12 @@ a {
 
 .parts-container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   gap: 20px;
   font-family: 'Courier New', Courier, monospace;
   overflow-y: scroll;
+  background-image: url(https://images8.alphacoders.com/755/thumbbig-755323.jpeg);
+  background-size: cover;
 }
 
 .parts.list {
