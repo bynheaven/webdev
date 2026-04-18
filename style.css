@@ -45,9 +45,9 @@ a {
 
 .parts-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace
 }
 
 .parts.list {
