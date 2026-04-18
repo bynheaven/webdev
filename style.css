@@ -49,3 +49,12 @@ a {
   gap: 10px;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.parts.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 300px;
+  overflow-y: scroll;
+}
