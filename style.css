@@ -16,7 +16,7 @@ body {
 
 header {
   padding: 20px;
-  background: linear-gradient(180deg, #3e0a79b0 5%, #ffffffb0 100%);
+  background: linear-gradient(180deg, #3e0a79b0 10%, #ffffffb0 95%);
 }
 
 main {
@@ -79,4 +79,9 @@ a {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: italic;
+}
+
+footer {
+  padding: 20px;
+  background: #959297b0;
 }
