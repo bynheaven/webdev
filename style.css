@@ -7,7 +7,7 @@
 body {
   background: linear-gradient(135deg, #ffffff 5%, #8d0000 100%);
   color: var(--text);
-  font-family: sans-serif;
+  font-family: "Sekuya", sans-sherif;
   font-size: 16px;
   line-height: 1.7;
   margin: 0;
@@ -64,10 +64,4 @@ a {
   padding-right: 20px;
   border: 2px solid lightsalmon;
   margin-bottom: 20px;
-}
-
-.sekuya-regular {
-  font-family: "Sekuya", system-ui;
-  font-weight: 400;
-  font-style: normal;
 }
