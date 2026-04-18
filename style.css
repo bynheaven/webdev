@@ -49,8 +49,7 @@ a {
   gap: 20px;
   font-family: 'Courier New', Courier, monospace;
   overflow-y: scroll;
-  background-image: url(https://images8.alphacoders.com/755/thumbbig-755323.jpeg);
-  background-size: cover;
+  background-image: url(url../../../Downloads/thumbbig-755323.webp);
 }
 
 .parts.list {
