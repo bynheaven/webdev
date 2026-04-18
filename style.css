@@ -1,11 +1,11 @@
 :root {
   --bg: #f5f0e8;
   --text: #1a1a1a;
-  --accent: #3a86ff;
+  --accent: #a826e4;
 }
 
 body {
-  background: linear-gradient(135deg, #ffffff 5%, #8d0000 100%);
+  background: linear-gradient(135deg, #ffffff 5%, #261f5fb0 100%);
   color: var(--text);
   font-family: "Sekuya", sans-sherif;
   font-size: 16px;
@@ -62,7 +62,7 @@ a {
 
 .games {
   padding-right: 20px;
-  border: 2px solid lightsalmon;
+  border: 2px solid rgba(255, 160, 122, 0.014);
   margin-bottom: 20px;
 }
 
