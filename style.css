@@ -5,13 +5,18 @@
 }
 
 body {
-  background: linear-gradient(135deg, #ffffff 5%, #261f5fb0 100%);
+  background: linear-gradient(180deg, #ffffff 5%, #3e0a79b0 100%);
   color: var(--text);
   font-family: "Sekuya", sans-sherif;
   font-size: 16px;
   line-height: 1.7;
   margin: 0;
   padding: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #190d79b0;
 }
 
 main {
