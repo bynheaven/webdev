@@ -32,7 +32,7 @@ h4 {
 
 h3 {
   margin-top: 32px;
-  color: crimson;
+  color: rgb(22, 0, 4);
 }
 
 p {
@@ -45,9 +45,10 @@ a {
 
 .parts-container {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
-  font-family: 'Courier New', Courier, monospace
+  flex-direction: column-reverse;
+  gap: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-y: scroll;
 }
 
 .parts.list {
@@ -56,5 +57,5 @@ a {
   margin: 0;
   text-align: center;
   height: 300px;
-  overflow-y: scroll;
+
 }
