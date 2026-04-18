@@ -67,7 +67,7 @@ a {
 
 .games {
   padding-right: 20px;
-  border: 2px solid rgba(255, 160, 122, 0.014);
+  border: 2px solid rgba(255, 160, 122, 1);
   margin-bottom: 20px;
 
   & a:hover {
@@ -76,8 +76,7 @@ a {
 }
 
 .dm-serif-display-regular-italic {
-  font-family: "DM Serif Display"
-    , serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: italic;
 }
