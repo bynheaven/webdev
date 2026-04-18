@@ -16,7 +16,7 @@ body {
 
 header {
   padding: 20px;
-  background-color: #190d79b0;
+  background-color: linear-gradient(0deg, #3e0a79b0 5%, #ffffffb0 100%);
 }
 
 main {
@@ -70,8 +70,8 @@ a {
   border: 2px solid rgba(255, 160, 122, 0.014);
   margin-bottom: 20px;
 
-  &:hover {
-    background-color: #190d79b0;
+  & a:hover {
+    color: #190d79b0;
   }
 }
 
