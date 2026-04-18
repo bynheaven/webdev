@@ -25,12 +25,14 @@ h1 {
   font-size: 42px;
 }
 
-h2,h4 {
+h2,
+h4 {
   margin-top: 32px;
 }
+
 h3 {
-    margin-top: 32px;
-    color: crimson;
+  margin-top: 32px;
+  color: crimson;
 }
 
 p {
@@ -39,4 +41,10 @@ p {
 
 a {
   color: var(--accent);
+}
+
+.parts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
