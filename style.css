@@ -5,7 +5,7 @@
 }
 
 body {
-  background: var(--bg);
+  background: linear-gradient(135deg, #633e04 0%, #01035f 100%);
   color: var(--text);
   font-family: sans-serif;
   font-size: 16px;
@@ -49,7 +49,6 @@ a {
   gap: 20px;
   font-family: 'Courier New', Courier, monospace;
   overflow-y: scroll;
-  background-image: url(url../../../Downloads/thumbbig-755323.webp);
 }
 
 .parts.list {
