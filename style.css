@@ -46,5 +46,6 @@ a {
 .parts-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
