@@ -28,6 +28,7 @@ main {
 h1 {
   color: var(--accent);
   font-size: 42px;
+  text-align: center;
 }
 
 h2,
