@@ -4,6 +4,13 @@
   --accent: #a826e4;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   background: linear-gradient(180deg, #ffffff 5%, #3e0a79b0 100%);
   color: var(--text);
