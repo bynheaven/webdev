@@ -1,114 +1,65 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Bryan's first real page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jojo's Bizarre Adventure</title>
+    <link rel="stylesheet" href="jjba.css">
 </head>
 
 <body>
-    <header>
-        <img src="menu_icon.png" alt="A menu icon" class="menu-icon">
-        <h1>Bryan's first real page </h1>
-        <h2>Something about Bryan</h2>
-        <p>He is currently learning HTML and CSS. He is also learning JavaScript and Python. He is interested in web
-            development and data science. He is also interested in machine learning and AI.
-        </p>
-    </header>
-    <main>
-        <p>Bryan's favourite games are :
-        <div class="games">
-            <ol>
-                <li><a href="https://fr.wikipedia.org/wiki/Elden_Ring" target="_blank">Elden Ring</a>
-                </li>
-                <li><a href="https://fr.wikipedia.org/wiki/Hollow_Knight" target="_blank">Hollow Knight</a></li>
-                <li><a href="https://fr.wikipedia.org/wiki/Cyberpunk_2077" target="_self">Cyberpunk 2077</a></li>
-            </ol>
-        </div>
-        </p>
-    </main>
-    <p>Bryan's favourite manga is jojo bizarre adventure. </p>
-    <h3>Here is a list of all <abbr title="JoJo's Bizarre Adventure">JJBA</abbr> parts.</h3>
-    <div class="parts list">
-        <ul>
-            <li><a href="#prt.8">Jojolion</a></li>
-            <li><a href="#prt.7">Steel ball run</a></li>
-            <li><a href="#prt.2">Battle tendency</a></li>
-            <li><a href="#prt.4">Diamond is unbreakable</a></li>
-            <li><a href="#prt.5">Golden wind</a></li>
-            <li><a href="#prt.6">Stone ocean</a></li>
-            <li><a href="#prt.3">Stardust crusaders</a></li>
+    <nav class="navbar">
+        <a href="#" class="navbar__logo">JJBA</a>
+        <ul class="navbar__links">
+            <li><a href="jjba-part.html">Parts</a></li>
+            <li><a href="#">Characters</a></li>
+            <li><a href="#">Stands</a></li>
+            <li><a href="#">About</a></li>
         </ul>
-    </div>
-    <div class="parts-container">
-        <section id="prt.8">
-            <h4 class="dm-serif-display-regular-italic">Jojolion</h4>
-            <p><u>Jojolion</u> is the eighth part of the JoJo's Bizarre Adventure series. Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
+    </nav>
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero__title">Jojo's Bizarre Adventure</h1>
+            <p class="hero__subtitle">Explore the world of stands, Hamon and the joestar blood</p>
+            <a href="#" class="hero__btn">Explore characters</a>
         </section>
-        <section id="prt.7">
-            <h4 class="dm-serif-display-regular-italic">Steel ball run</h4>
-            <p><u>Steel ball run</u> is the seventh part of the JoJo's Bizarre Adventure series. Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
-        </section>
-        <section id="prt.2">
-            <h4 class="dm-serif-display-regular-italic">Battle tendency</h4>
-            <p><u>Battle tendency</u> is the second part of the JoJo's Bizarre Adventure series. Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
-        </section>
-        <section id="prt.4">
-            <h4 class="dm-serif-display-regular-italic">Diamond is unbreakable</h4>
-            <p><u>Diamond is unbreakable</u> is the fourth part of the JoJo's Bizarre Adventure series. Lorem, ipsum
-                dolor sit
-                amet consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
-        </section>
-        <section id="prt.5">
-            <h4 class="dm-serif-display-regular-italic">Golden wind</h4>
-            <p><u>Golden wind</u> is the fifth part of the JoJo's Bizarre Adventure series. Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
-        </section>
-        <section id="prt.6">
-            <h4 class="dm-serif-display-regular-italic">Stone ocean</h4>
-            <p><u>Stone ocean</u> is the sixth part of the JoJo's Bizarre Adventure series. Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
-        </section>
-        <section id="prt.3">
-            <h4 class="dm-serif-display-regular-italic">Stardust crusaders</h4>
-            <p><u>Stardust crusaders</u> is the third part of the JoJo's Bizarre Adventure series. Lorem, ipsum dolor
-                sit
-                amet consectetur adipisicing elit. Corrupti nostrum perspiciatis officia illum in eaque error nobis a,
-                molestiae voluptatibus expedita incidunt non repellendus deleniti ad sapiente reiciendis optio maiores.
-            </p>
-        </section>
-    </div>
-    </div>
+        <div class="card-grid">
+            <div class="card">
+                <img class="card__image" src="jotaro.png" alt="Jotaro Kujo" />
+                <div class="card__body">
+                    <h2 class="card__title">Jotaro Kujo</h2>
+                    <p class="card__text">A delinquent with a heart of gold and the most powerful Stand in Part 3.</p>
+                    <a href="#" class="card__btn">Read More →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="kars.png" alt="Kars" />
+                <div class="card__body">
+                    <h2 class="card__title">Kars</h2>
+                    <p class="card__text">He became the ultimate life form in Part 2.</p>
+                    <a href="#" class="card__btn">Read More →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="rohan.png" alt="Rohan Kishibe" />
+                <div class="card__body">
+                    <h2 class="card__title">Rohan Kishibe</h2>
+                    <p class="card__text">A famous mangaka from Morioh. His Stand is Heaven's Door.</p>
+                    <a href="#" class="card__btn">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
-        <h5>More about me</h5>
-        <address href="mailto:bryandanho@example.com">
-            <p>bryandanho@example.com</p>
-        </address>
-        <address href="tel:+33123456789">
-            <p>+33 1 23 45 67 89</p>
-        </address>
-        <p>© 2026 Bryan Danho. All rights reserved.</p>
+        <p>&copy; 2025 Jojo's Bizarre Adventure built by Bryan</p>
+        <p>Contact: bryan.danho@epitech.eu</p>
+        <p>All rights reserved</p>
+        <p>Not affiliated with Hirohiko Araki or Shueisha</p>
     </footer>
+
 </body>
+
+</html>
