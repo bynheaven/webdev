@@ -118,6 +118,7 @@ body {
     justify-content: center;
     text-align: center;
     padding: 80px 32px;
+    background: linear-gradient(135deg, #1a1a2e, #6c63ff);
 }
 
 .hero__title {
