@@ -68,11 +68,11 @@ a {
   padding: 0 20px;
 }
 
-.parts.list {
+.parts-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: left;
+  text-align: center;
   height: auto;
 
 }
